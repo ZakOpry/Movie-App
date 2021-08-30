@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(29, 29, 29);
+    margin: 0;
+}
+
+
+.button {
+    width: 100px;
+}
+
+.movie-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.images {
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: white;
+    background-color: red;
+    border: none;
+}
+
+img {
+   height: 480px; 
+   width: 300px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 100%;
+    background-color: black;
+    
+}
+
+.movieApp {
+    font-size: 75px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-family: 'Staatliches', cursive;
+    color: red;
+}
+
+.movieTitle {
+font-size: 20px;
+color: white
+
+}
