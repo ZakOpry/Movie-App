@@ -3,7 +3,7 @@ const button = document.querySelector(".button")
 async function buttonPress(){
 const input = document.querySelector(".input").value 
 const key = '5efce0a4&s='
-const omdbUrl = 'http://www.omdbapi.com/?apikey=' + key + input
+const omdbUrl = 'https://www.omdbapi.com/?apikey=' + key + input
 const movie = await fetch(omdbUrl);
 const movieJson = await movie.json();
 const movieCard = document.querySelector('.movie-cards')
